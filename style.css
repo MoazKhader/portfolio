@@ -1,0 +1,41 @@
+.grid{
+    display: block;
+    background-color: gainsboro;
+    min-width: 100%;
+    min-height: 100%;
+    grid-template-areas: 
+    'header header header header header header',
+    'menu main main main main right right',
+    'menu footer footer footer footer right';
+}
+
+.header{
+    grid-area: header;
+    
+}
+.main{
+    grid-area: main;
+}
+.right{
+    grid-area: right;
+}
+.footer{
+    grid-area: footer;
+}
+.menu{
+    grid-area: menu;
+}
+
+.header{
+    display: flex;
+}
+h1{
+    font-family: "Montserrat", sans-serif
+}
+.w3-jumbo{
+   padding-left: 400px;
+   padding-top: 70px;
+}
+
+
+
